@@ -1,3 +1,18 @@
+@import url('https://fonts.google.com/specimen/Karla');
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+  .clearfix { display: inline-block; }
+  * html .clearfix { height: 1%; }
+  .clearfix { display: block; }
+  
+
+
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400;
@@ -15,4 +30,46 @@ img {
     max-width: 100%; /* Afbeeldingen responsive maken */
 }
 
-/* Voeg jouw css hieraan toe */
+*{
+    box-sizing: border-box;
+}
+
+
+.kleuren{
+    width: 200px;
+    height: 200px;
+    float: left;
+    color: black;
+    padding: 15px;
+    font-size: 16px
+}
+.lichtblauw_1{
+    background: rgb(100, 190, 173);
+}
+.lichtblauw_2{
+    background: rgb(134, 255, 232);
+}
+.lichtblauw_3{
+    background: rgb(107, 204, 186);
+}
+.grijs{
+    background: rgb(105, 127, 123);
+}
+.Blauwwit{
+    background: rgb(211, 255, 247);
+}
+
+.Titel{
+    font-family: 'karla';
+    font-size: 73px;
+}
+
+.Subtitel{
+    font-family: 'karla';
+    font-size: 48px;
+}
+
+.Tekst{
+    font-family: 'karla';
+    font-size: 21px;
+}
